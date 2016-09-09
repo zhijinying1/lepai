@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mainfragment.BbsFragment">
+
+    <RelativeLayout
+        android:id="@+id/rLayout1"
+        android:layout_width="200dp"
+        android:layout_height="match_parent">
+
+        <RadioGroup
+            android:id="@+id/radioGroupBbs"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/rbLT"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/click_bbs"
+                android:button="@null"
+                android:checked="true"
+                android:drawableLeft="@drawable/bbs_icon_0"
+                android:text="全部论坛"
+                android:textColor="#f00"
+                android:textAlignment="center" />
+
+            <RadioButton
+                android:id="@+id/rbZP"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/click_bbs"
+                android:button="@null"
+                android:drawableLeft="@drawable/bbs_icon_1"
+                android:text="题材作品区"
+                android:textAlignment="center" />
+
+            <RadioButton
+                android:id="@+id/rbSY"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/click_bbs"
+                android:button="@null"
+                android:drawableLeft="@drawable/bbs_icon_2"
+                android:text="全部摄影区"
+                android:textAlignment="center" />
+
+            <RadioButton
+                android:id="@+id/rbJY"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/click_bbs"
+                android:button="@null"
+                android:drawableLeft="@drawable/bbs_icon_3"
+                android:text="二手交易区"
+                android:textAlignment="center" />
+
+            <RadioButton
+                android:id="@+id/rbFZ"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/click_bbs"
+                android:button="@null"
+                android:drawableLeft="@drawable/bbs_icon_4"
+                android:text="全国分站区"
+                android:textAlignment="center" />
+
+            <RadioButton
+                android:id="@+id/rbTL"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/click_bbs"
+                android:button="@null"
+                android:drawableLeft="@drawable/bbs_icon_5"
+                android:text="器材讨论区"
+                android:textAlignment="center" />
+
+            <RadioButton
+                android:id="@+id/rbFW"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/click_bbs"
+                android:button="@null"
+                android:drawableLeft="@drawable/bbs_icon_6"
+                android:text="论坛服务区"
+                android:textAlignment="center" />
+
+        </RadioGroup>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listViewBbs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/rLayout1">
+
+    </ListView>
+
+</RelativeLayout>

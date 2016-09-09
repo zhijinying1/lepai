@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.zhijinying.lepaiyizu.activity.ShareActivity">
+
+    <TextView
+        android:id="@+id/tvAbout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="授权"
+        android:gravity="center"
+        android:background="@drawable/bg_title"
+        android:textColor="#fff"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="尚未授权"
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/logo_douban"
+        android:drawableRight="@drawable/cb_uncheck"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="尚未授权"
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/logo_qzone"
+        android:drawableRight="@drawable/cb_uncheck"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="尚未授权"
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/logo_qq"
+        android:drawableRight="@drawable/cb_uncheck"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="尚未授权"
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/logo_shortmessage"
+        android:drawableRight="@drawable/cb_uncheck"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="尚未授权"
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/logo_sinaweibo"
+        android:drawableRight="@drawable/cb_uncheck"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="尚未授权"
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/logo_sohumicroblog"
+        android:drawableRight="@drawable/cb_uncheck"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="尚未授权"
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/logo_tencentweibo"
+        android:drawableRight="@drawable/cb_uncheck"/>
+
+</LinearLayout>

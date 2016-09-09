@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zhijinying.lepaiyizu.activity.FeedbackActivity">
+
+    <TextView
+        android:id="@+id/tvFeedback"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="建议反馈"
+        android:gravity="center"
+        android:background="@drawable/bg_title"
+        android:textColor="#fff"/>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvFeedback"
+        android:background="#ddd"
+        android:text="          大家来蜂鸟，都是学习交流摄影技术心得，实现互相学习，共同提高。尤其是新人到蜂鸟来，更希望得到高手的指点。蜂鸟现在人气不错，但缺少对照片客观评价指点，在这一点，中国摄影家协会网就好一点。建议蜂鸟组织一些大师进行上传相片点评，让我们这些菜鸟有大的收获。"/>
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv1"
+        android:background="#eee"
+        android:text="         老生常谈的事,个人认为每个新手都有这么一个过程,我也有过,也发过类似贴,论坛只提供一个互相交流学习的平台,主要还是靠自己多拍多练多思考多学习多交流,支持朋友,希望大家一起进步。"/>
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv2"
+        android:background="#ddd"
+        android:text="        个人认为，摄影是一门艺术，个人素质是基础。既然是一个摄影爱好者，就应该做一个有素质的人。"/>
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv3"
+        android:background="#eee"
+        android:text="可以像宽带山或者篱笆那样回复到30或者40楼再翻页，这样弄10楼就翻页感觉翻的太频繁很烦，想制造点击率可以通过别的方式。"/>
+
+</RelativeLayout>

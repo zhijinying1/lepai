@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvBbs"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/bbs_item_sub_class_bg_normal"
+        android:text="人像"
+        android:gravity="center"/>
+
+    <!--<TextView-->
+        <!--android:id="@+id/tvBbs"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="80dp"-->
+        <!--android:background="@drawable/bbs_item_main_class_bg_selected"-->
+        <!--android:drawableRight="@drawable/set_item_arrow"-->
+        <!--android:text="人像"-->
+        <!--android:textAlignment="center" />-->
+
+</LinearLayout>

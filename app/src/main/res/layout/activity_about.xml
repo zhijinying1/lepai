@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zhijinying.lepaiyizu.activity.AboutActivity">
+
+    <TextView
+        android:id="@+id/tvAbout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="关于我们"
+        android:gravity="center"
+        android:background="@drawable/bg_title"
+        android:textColor="#fff"/>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvAbout"
+        android:textSize="20dp"
+        android:text="        蜂鸟摄影网是中国摄影行业规模大、信誉高、信息全、范围广的综合性行业门户网站， 致力于为广大摄影爱好者提供最迅速、及时、有效的摄影行业资讯。"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv1"
+        android:textSize="20dp"
+        android:text="        为注册会员提供相互交流的论坛空间， 为蜂鸟摄影俱乐部VIP会员提供从器材购买、维修到作品冲印、展示、拍卖等全系列的优惠服务， 同时为广大经销商、器材厂商、设备厂商、冲印店、喷绘彩印店、业内同仁、平面媒体、摄影师等提供一步到位的网站建设、设计、维护和产品推广服务。"/>
+
+
+</RelativeLayout>
